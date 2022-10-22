@@ -76,6 +76,7 @@ nav .fa-solid{
     height: 100vh;
     margin: 5%;
     transition-duration: 0.5s;
+    box-shadow: none;
 }
 
 .card .image {
@@ -99,10 +100,6 @@ nav .fa-solid{
     background: #fff;
     border-radius: 20px;
     margin: 20px 0;
-}
-
-.card .more {
-    
 }
 
 .card::before {
@@ -131,6 +128,16 @@ nav .fa-solid{
     transition-duration: 0.5s;
 }
 
+.kk {
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.kk .akk {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+}
 
 @media(max-width: 700px){
     .text-box h1{
